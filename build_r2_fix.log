@@ -1,0 +1,128 @@
+
+> villahadad-v2@1.0.84 package:mac
+> npm run build && electron-builder --mac
+
+
+> villahadad-v2@1.0.84 build
+> vite build
+
+vite v6.4.1 building for production...
+transforming...
+Found 1 warning while optimizing generated CSS:
+
+[2m│   }[22m
+[2m│   .\[-\:\|\] {[22m
+[2m│[22m     -: |;
+[2m┆[22m         [33m[2m^--[22m Unexpected token Semicolon[39m
+[2m┆[22m
+[2m│   }[22m
+[2m│   .\[path\:line\] {[22m
+
+✓ 3850 modules transformed.
+rendering chunks...
+[plugin vite:reporter] 
+(!) /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/services/mockBackend.ts is dynamically imported by /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/components/BookingDetailsView.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/components/admin/dashboard/AdminGeniusDashboard.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/components/admin/hr/AdminSentinelView.tsx but also statically imported by /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/App.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/components/AiAssistantModal.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/components/admin/assets/AdminInventoryView.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/components/manager/financial/ManagerAccountsView.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/components/manager/financial/ManagerFinancialOverview.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/components/manager/financial/widgets/ExpenseTrackerWidget.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/components/manager/team/ManagerTeamView.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/components/reception/dashboard/widgets/TasksProgressWidget.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/components/selection/SelectionDashboard.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/providers/AuthProvider.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/providers/DataProvider.tsx, /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/src/services/automation/NasVisionService.ts, dynamic import will not move module into another chunk.
+
+computing gzip size...
+dist/index.html                                        2.75 kB │ gzip:   1.09 kB
+dist/assets/Avatar-Djcc1MSU.png                    1,082.99 kB
+dist/assets/index-CgjNFWZm.css                       438.15 kB │ gzip:  45.27 kB
+dist/assets/seed-yBKHHGOS.js                           0.36 kB │ gzip:   0.25 kB
+dist/assets/clsx-B-dksMZM.js                           0.37 kB │ gzip:   0.24 kB
+dist/assets/ScrollReveal-D2MIVssa.js                   0.58 kB │ gzip:   0.36 kB
+dist/assets/CurrentUserService-BpRsn01f.js             0.95 kB │ gzip:   0.44 kB
+dist/assets/ProductionHeader-BMjYN3Hw.js               1.28 kB │ gzip:   0.69 kB
+dist/assets/seedPackages-BzdzwmSW.js                   1.30 kB │ gzip:   0.70 kB
+dist/assets/ClientBadge-DaEKRV1L.js                    1.49 kB │ gzip:   0.73 kB
+dist/assets/ManagerDashboardCard-CP1drkT4.js           1.51 kB │ gzip:   0.91 kB
+dist/assets/ReceptionWidgetCard-DgiBK5ow.js            1.67 kB │ gzip:   0.77 kB
+dist/assets/GlowCard-BD6Bm3F6.js                       1.93 kB │ gzip:   1.00 kB
+dist/assets/VideoEditorLayout-YOEJGBMo.js              2.46 kB │ gzip:   1.14 kB
+dist/assets/FilterBar-Dqo3kMcr.js                      2.63 kB │ gzip:   0.82 kB
+dist/assets/SelectionLayout-JW70dAgS.js                2.77 kB │ gzip:   1.09 kB
+dist/assets/ElectronicPaymentsWidget-BJ38VZBv.js       2.86 kB │ gzip:   1.23 kB
+dist/assets/LeaveService-DhTJQTpW.js                   3.26 kB │ gzip:   1.11 kB
+dist/assets/AdminLayout-Btbfr2Wu.js                    3.97 kB │ gzip:   1.64 kB
+dist/assets/PhotoEditorLayout-61Y-csVr.js              4.31 kB │ gzip:   1.72 kB
+dist/assets/ReceptionSidebar-BUcXmba7.js               4.33 kB │ gzip:   1.83 kB
+dist/assets/ProfileDropdown-CXZSXvdU.js                4.51 kB │ gzip:   1.87 kB
+dist/assets/ReceptionFinancialView-IvsLMK6g.js         5.80 kB │ gzip:   1.70 kB
+dist/assets/PrinterLayout-DX5AxdZS.js                  6.07 kB │ gzip:   2.39 kB
+dist/assets/ConflictResolutionView-BoBo8DSy.js         6.85 kB │ gzip:   2.15 kB
+dist/assets/AdminAuditView-CUJRe6ii.js                 7.04 kB │ gzip:   2.37 kB
+dist/assets/WorkflowManagerView-BgDK7oPV.js            7.73 kB │ gzip:   2.32 kB
+dist/assets/DeletedBookingsView-Dcj2o0lC.js            8.55 kB │ gzip:   2.62 kB
+dist/assets/VideoEditorDashboard-HGEYjv7h.js           9.93 kB │ gzip:   3.15 kB
+dist/assets/AdminClientsListView--hlzmbSK.js          11.07 kB │ gzip:   3.36 kB
+dist/assets/DashboardOverview-DQ88sbCs.js             11.53 kB │ gzip:   3.19 kB
+dist/assets/AdminSentinelView-C0s5jKpH.js             11.70 kB │ gzip:   3.27 kB
+dist/assets/AdminWarRoomView-xrTvzhg_.js              11.86 kB │ gzip:   3.55 kB
+dist/assets/AdminSystemView-obg4Qh7N.js               11.97 kB │ gzip:   3.70 kB
+dist/assets/PhotoEditorGalleryView-GGXte42s.js        12.75 kB │ gzip:   4.06 kB
+dist/assets/ReceptionGalleryView-BG8LfVYx.js          12.76 kB │ gzip:   4.07 kB
+dist/assets/AdminFinancialView-CJhTfRgq.js            14.04 kB │ gzip:   3.46 kB
+dist/assets/ManagerLayout-Co-JcEA0.js                 14.64 kB │ gzip:   4.66 kB
+dist/assets/schema-ouiFYjk8.js                        15.17 kB │ gzip:   2.61 kB
+dist/assets/ClientPortal-BIbE19Kk.js                  16.19 kB │ gzip:   4.26 kB
+dist/assets/ManagerClientsView-CXiypMbg.js            18.26 kB │ gzip:   5.07 kB
+dist/assets/AdminGeniusDashboard-CWFoXGTb.js          18.56 kB │ gzip:   5.67 kB
+dist/assets/ReceptionBookingsView-CUl9DU4-.js         20.90 kB │ gzip:   6.32 kB
+dist/assets/AreaChart-Dq4vkcq7.js                     23.85 kB │ gzip:   7.07 kB
+dist/assets/ReceptionClientsView-DMYhXexe.js          24.64 kB │ gzip:   6.44 kB
+dist/assets/utils-BykweIWy.js                         25.18 kB │ gzip:   8.02 kB
+dist/assets/AdminHRView-BnARqSEj.js                   25.76 kB │ gzip:   6.74 kB
+dist/assets/AdminInventoryView-DatPu3et.js            29.17 kB │ gzip:   6.39 kB
+dist/assets/ManagerBookingDetailsView-BYo_-lv5.js     31.05 kB │ gzip:   7.19 kB
+dist/assets/vendor-utils-DKqDJWuS.js                  32.68 kB │ gzip:   8.88 kB
+dist/assets/UnifiedTeamChat-DqDBOd2o.js               36.21 kB │ gzip:   9.29 kB
+dist/assets/WorkflowView-4cs7QiZd.js                  37.79 kB │ gzip:   8.80 kB
+dist/assets/ManagerTeamView-CefA9ji8.js               38.33 kB │ gzip:   9.48 kB
+dist/assets/SelectionDashboard-DioFrraD.js            43.21 kB │ gzip:  10.74 kB
+dist/assets/PhotoEditorDashboard-CdsODSDX.js          48.01 kB │ gzip:  10.07 kB
+dist/assets/ManagerAccountsView-D2MCPkjo.js           48.45 kB │ gzip:  11.72 kB
+dist/assets/PrinterDashboard-DfnzN0H_.js              54.47 kB │ gzip:  10.98 kB
+dist/assets/ManagerFinancialView-BIVA-r5R.js          62.14 kB │ gzip:  16.30 kB
+dist/assets/ManagerDashboard-BbGjUIiT.js              66.88 kB │ gzip:  17.50 kB
+dist/assets/ReceptionDashboard-D4M31Mli.js            74.66 kB │ gzip:  19.84 kB
+dist/assets/ManagerGalleryView-Cf-OZXnK.js           121.35 kB │ gzip:  29.52 kB
+dist/assets/vendor-supabase-CSCOup90.js              172.49 kB │ gzip:  44.50 kB
+dist/assets/vendor-ui-DLZNsvWr.js                    179.61 kB │ gzip:  48.64 kB
+dist/assets/vendor-react-Ce27NbrU.js                 280.32 kB │ gzip:  87.48 kB
+dist/assets/generateCategoricalChart-NQEqos2u.js     321.58 kB │ gzip:  91.99 kB
+dist/assets/index-Do6RqXgG.js                        685.95 kB │ gzip: 179.12 kB
+✓ built in 5.50s
+  • electron-builder  version=26.0.12 os=25.2.0
+  • loaded configuration  file=package.json ("build" field)
+  • description is missed in the package.json  appPackageFile=/Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/package.json
+  • author is missed in the package.json  appPackageFile=/Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/package.json
+  • @electron/rebuild already used by electron-builder, please consider to remove excess dependency from devDependencies
+
+To ensure your native dependencies are always matched electron version, simply add script `"postinstall": "electron-builder install-app-deps" to your `package.json`
+  • executing @electron/rebuild  electronVersion=39.2.7 arch=arm64 buildFromSource=false appDir=./
+  • installing native dependencies  arch=arm64
+  • preparing       moduleName=better-sqlite3 arch=arm64
+  • finished        moduleName=better-sqlite3 arch=arm64
+  • completed installing native dependencies
+  • packaging       platform=darwin arch=arm64 electron=39.2.7 appOutDir=release/mac-arm64
+(node:69825) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+  • default Electron icon is used  reason=application icon is not set
+  • signing         file=release/mac-arm64/VillaHadad.app platform=darwin type=distribution identityName=Developer ID Application: mohammed adnan (5VDBA8UAMB) identityHash=BCD44BBBF70134DEDCD480FEE77FA8E16AF81BA2 provisioningProfile=none
+  • Above command failed, retrying 3 more times
+  • Above command failed, retrying 3 more times
+  • Above command failed, retrying 3 more times
+  • Above command failed, retrying 3 more times
+  ⨯ Command failed: codesign --sign Developer ID Application: mohammed adnan (5VDBA8UAMB) --force --timestamp --options runtime --entitlements build/entitlements.mac.inherit.plist /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/release/mac-arm64/VillaHadad.app/Contents/Frameworks/Electron Framework.framework/Electron Framework
+/Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/release/mac-arm64/VillaHadad.app/Contents/Frameworks/Electron Framework.framework/Electron Framework: replacing existing signature
+/Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/release/mac-arm64/VillaHadad.app/Contents/Frameworks/Electron Framework.framework/Electron Framework: No such file or directory
+  failedTask=build stackTrace=Error: Command failed: codesign --sign Developer ID Application: mohammed adnan (5VDBA8UAMB) --force --timestamp --options runtime --entitlements build/entitlements.mac.inherit.plist /Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/release/mac-arm64/VillaHadad.app/Contents/Frameworks/Electron Framework.framework/Electron Framework
+/Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/release/mac-arm64/VillaHadad.app/Contents/Frameworks/Electron Framework.framework/Electron Framework: replacing existing signature
+/Users/mohamedaljaff/Desktop/Villaapps/villahadadMacos/release/mac-arm64/VillaHadad.app/Contents/Frameworks/Electron Framework.framework/Electron Framework: No such file or directory
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:508:28)
+    at maybeClose (node:internal/child_process:1085:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:508:28)
+    at Pipe.<anonymous> (node:net:346:12)

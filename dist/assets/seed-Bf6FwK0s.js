@@ -1,0 +1,1 @@
+import"./index-BFvmHygk.js";import"./vendor-react-Ce27NbrU.js";import"./vendor-ui-TjLGESBy.js";import"./vendor-supabase-CSCOup90.js";import"./vendor-utils-DKqDJWuS.js";async function r(){console.log("[seedDatabase] 🌱 Starting database seed check...");{console.log("[seedDatabase] 🚫 Seed DISABLED in production mode");return}}export{r as seedDatabase};

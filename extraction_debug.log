@@ -1,0 +1,5 @@
+Starting extraction...
+Header size: 5404788
+Detected header JSON size: 5404779
+Found package.json: offset=194328790, size=1884
+Extracted package.json successfully
